@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:text="thêm đồ vật"
+        android:textSize="20dp"
+        android:drawableLeft="@mipmap/add"
+        android:id="@+id/butTon1"
+        android:layout_centerHorizontal="true"
+        />
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/listView1"
+        android:layout_below="@id/butTon1"
+        />
+</RelativeLayout>
